@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/*     font-family: 'Poppins', sans-serif;     */
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #303643;
+  padding-top: 15px;
+  position: relative;
+  margin-bottom: 100px;
+}
+header nav {
+  color: #757b8c;
+  padding-bottom: 30px;
+}
+header nav a {
+  color: #757b8c;
+  font-size: 17px;
+  margin: 0 15px;
+}
+ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+header select {
+  background-color: transparent;
+  color: #757b8c;
+  border: 0;
+  margin-left: 10px;
+  outline: none;
+}
+header .name {
+  padding-bottom: 30px;
+}
+header .name a {
+  position: relative;
+  left: -8%;
+}
+header .name button {
+  background-color: #06c257;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 25px;
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  right: 16%;
+  bottom: -15%;
+}
+
+main .functions {
+}
+main .functions .search {
+  color: #757b8c;
+}
+main .functions .search input {
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  color: #bdc2ce;
+}
+main .functions .search input::placeholder {
+  color: #bdc2ce;
+}
+
+main .functions .filter select {
+  border: 0;
+  outline: none;
+  width: auto;
+  color: #757b8c;
+}
+main .functions .filter label {
+  margin-left: 10px;
+  margin-right: 5px;
+  color: #bdc2ce;
+}
+
+#resizingSelectTag {
+  width: 50px;
+}
+#selectTagWidth {
+  display: none;
+}
+#rresizingSelectTag {
+  width: 70px;
+}
+#sselectTagWidth {
+  display: none;
+}
+#rrresizingSelectTag {
+    width: 135px;
+  }
+#ssselectTagWidth {
+    display: none;
+}
+
+
+.list{
+    margin-top: 20px;
+}
+.list h6{
+    color: #bdc2ce;
+    text-transform: uppercase;
+}
+
+
+.users li {
+    padding: 10px 0;
+    border-top: 1px solid #bdc2ce;
+    border-bottom: 1px solid #bdc2ce;
+}
+.users .dot{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.users .blue {
+    background-color:#4a90e2;
+}
+.users .orange {
+    background-color:#f5a623;
+}
+.users .red {
+    background-color:#f9495e;
+}
+
+
+
+
+@media (max-width:768px) {
+    .users li img {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px !important;
+    }
+    .users li {
+        font-size: 10px !important;
+    }
+}
+@media (max-width:750px) {
+    header nav ul {
+        flex-direction: column;
+    }
+}
+@media (max-width:510px) {
+    header img {
+        width: 100%;
+        height: 100px;
+    }
+    .users li h5{
+        font-size: 12px ;
+    }
+}
